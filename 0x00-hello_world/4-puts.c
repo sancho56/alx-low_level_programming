@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /**
- * main() - main funcition
- * This prints a string value
+ * main - prints string value
+ * Description - This program a string value
+ * Return: retuns zero
  */
 int main(void)
 {
