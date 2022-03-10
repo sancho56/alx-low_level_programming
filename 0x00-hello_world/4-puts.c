@@ -1,6 +1,9 @@
 #include <stdio.h>
 
-/*This prints a string value*/
+/**
+ * main() - main funcition
+ * This prints a string value
+ */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
