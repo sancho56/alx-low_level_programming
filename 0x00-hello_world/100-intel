@@ -1,2 +1,2 @@
 #!/bin/bash
-g++ -S $CFILE> *.s 
+gcc -c $CFILE > *.s 
