@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <stdio.h>
 #include <time.h>
 /**
  * main - checks for the number type
