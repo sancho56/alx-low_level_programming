@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 /**
  * main - checks for the number type
@@ -23,5 +23,6 @@ int main(void)
 	{
 		printf("is negative");
 	}
+	return (0);
 }
 
