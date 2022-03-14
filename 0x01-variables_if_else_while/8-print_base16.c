@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints the base16 
+ * main - prints the base16
  * Description: This program prints out lowercase base16 hexadecimal
  * Return: return 0
  */
