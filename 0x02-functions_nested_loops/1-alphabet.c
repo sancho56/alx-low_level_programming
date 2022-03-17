@@ -5,9 +5,9 @@
  * Description: this program prints alpahbet in lowercase
  * Return: return 0
  */
+/*Description: Prints the alphabet*/
 void print_alphabet(void)
 {
-	/*Description: print alpahbet*/
 	char i;
 
 	for (i = 'a'; i <= 'z'; i++)
