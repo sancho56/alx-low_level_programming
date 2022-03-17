@@ -6,7 +6,9 @@
  * Return: return 0
  */
 /**
- * Description: Prints the alphabet
+ * print_alphabet - print alphabet
+ * Description: this funcition print alphabet
+ * Return: void
  */
 void print_alphabet(void)
 {
