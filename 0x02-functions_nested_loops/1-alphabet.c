@@ -5,6 +5,7 @@
  * @void: nothing to pass
  *
  * Description: This function print alphabet in lowercase by looping
+ * section header: funcition prints
  * Context: no sleeping
  * Return: void
  */
