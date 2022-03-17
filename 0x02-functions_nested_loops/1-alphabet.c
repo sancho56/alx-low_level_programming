@@ -2,8 +2,7 @@
 #include <stdio.h>
 /**
  * print_alphabet() - print alphabet
- * @arg: void nothing to pass
- * Description: This funcition print alphabet in lowercase by looping through every point
+ * description: This funcition print alphabet in lowercase by looping
  * Context: no sleeping
  * Return: void
  */
