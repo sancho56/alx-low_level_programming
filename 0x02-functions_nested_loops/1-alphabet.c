@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * print_alphabet() - print alphabet
- * description: This funcition print alphabet in lowercase by looping
+ * Description: This function print alphabet in lowercase by looping
  * Context: no sleeping
  * Return: void
  */
