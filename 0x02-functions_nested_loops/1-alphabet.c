@@ -5,11 +5,6 @@
  * Description: this program prints alpahbet in lowercase
  * Return: return 0
  */
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
 void print_alphabet(void)
 {
 	char i;
