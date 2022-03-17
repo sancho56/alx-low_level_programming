@@ -1,13 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - prints alphabet
- * Description: this program prints alpahbet in lowercase
- * Return: return 0
- */
-/**
- * print_alphabet - print alphabet
- * Description: this funcition print alphabet
+ * print_alphabet() - print alphabet
+ * @arg1: void nothing to pass
+ * 
+ * This funcition print alphabet in lowercase by looping through every point
+ * Context: no sleeping
  * Return: void
  */
 void print_alphabet(void)
