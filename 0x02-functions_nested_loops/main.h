@@ -1,7 +1,5 @@
 #ifndef HEADERFILE_H
 #define HEADERFILE_H
-/**
- * Description: prototype for printing alphabet
- */
 void print_alphabet(void);
+void print_alphabet_x10(void);
 #endif
