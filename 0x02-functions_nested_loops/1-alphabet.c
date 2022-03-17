@@ -2,6 +2,8 @@
 #include <stdio.h>
 /**
  * print_alphabet() - print alphabet
+ * @void: nothing to pass
+ *
  * Description: This function print alphabet in lowercase by looping
  * Context: no sleeping
  * Return: void
