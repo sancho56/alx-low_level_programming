@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * mul(a,b) - multiples two integers
+ * mul - multiples two integers
  * 
- * @a: integer 
- * @b: integer
+ * @a: integer a
+ * @b: integer b
  * 
  * Return: the multiplication of two parameters
  */
