@@ -2,6 +2,8 @@
 
 /**
  * print_line - draws a straight line in terminal
+ * 
+ * @n: integer
  * Return: void
  */
 void print_line(int n)
