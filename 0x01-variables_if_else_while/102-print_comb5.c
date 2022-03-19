@@ -17,13 +17,17 @@ int main(void)
 		{
 			for (k = 0; k < 10; k++)
 			{
-				for (l = j + 1; l < 11; l++)
+				for (l = j + 1; l < 10; l++)
 				{
+					if (i == 0 && j == 0 && k == 0 && l == 0)
+					{
+						continue;
+					}
 					putchar(i + '0');
 					putchar(j + '0');
 					putchar(' ');
 					putchar(k + '0');
-					putchar((l%10) + '0');
+					putchar(l + '0');
 					if (i == 9 && j == 8 && k == 9 && l == 9)
 					{
 						break;
