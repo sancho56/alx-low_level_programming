@@ -1,9 +1,9 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - prints number with fizz and buzz
+ * print_fizz - prints number with fizz and buzz
  * Return: 0
  */
-int main(void)
+void print_fizz(void)
 {
 	int i;
 
