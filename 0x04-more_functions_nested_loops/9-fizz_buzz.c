@@ -1,9 +1,10 @@
-#include "main.h"
+#include <stdio.h>
+
 /**
- * print_fizz - prints number with fizz and buzz
+ * main - prints number with fizz and buzz
  * Return: 0
  */
-void print_fizz(void)
+int main(void)
 {
 	int i;
 
