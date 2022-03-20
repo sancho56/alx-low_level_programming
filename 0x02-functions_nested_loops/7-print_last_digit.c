@@ -13,7 +13,7 @@ int print_last_digit(int n)
 		n = n * -1;
 	}
 
-	n %= 10;
+	n = n % 10;
 	a = n * 11;
 	return (a);
 }
