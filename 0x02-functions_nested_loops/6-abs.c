@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _abs - prints absoulte of integer
- * @: integer
+ * @n: integer
  * Return: integer
  */
 int _abs(int n)
