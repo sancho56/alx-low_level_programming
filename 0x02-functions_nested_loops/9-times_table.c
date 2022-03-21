@@ -16,7 +16,8 @@ void times_table(void)
 			mul = i * j;
 			if (mul > 9)
 			{
-				putchar(' ');
+				if (j != 0)
+					putchar(' ');
 				putchar((mul / 10) + '0');
 				putchar((mul % 10) + '0');
 				if (j != 9)
