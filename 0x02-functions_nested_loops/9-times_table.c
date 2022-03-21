@@ -18,10 +18,13 @@ void times_table(void)
 			{
 				putchar((mul / 10) + '0');
 				putchar((mul % 10) + '0');
+				putchar(' ');
 			}
 			else
 			{
 				putchar('0' + (mul));
+				putchar(' ');
+				putchar(' ');
 			}
 			if (j == 9)
 			{
@@ -29,7 +32,6 @@ void times_table(void)
 				continue;
 			}
 			putchar(',');
-			putchar(' ');
 		}
 	}
 }
