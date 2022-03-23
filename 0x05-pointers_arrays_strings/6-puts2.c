@@ -1,4 +1,4 @@
-#include "mian.h"
+#include "main.h"
 /**
  * puts2 - prints even string
  * @str: char pointer
