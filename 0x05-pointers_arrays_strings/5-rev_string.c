@@ -15,6 +15,9 @@ void rev_string(char *s)
 
 	for (a = i; a > 0; a--)
 	{
+		if (a == 0)
+			break;
+
 		putchar(s[a]);
 	}
 }
