@@ -18,6 +18,6 @@ void rev_string(char *s)
 		if (a == 1)
 			break;
 
-		putchar(s[a]);
+		putchar(' ');
 	}
 }
