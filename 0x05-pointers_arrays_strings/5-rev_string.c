@@ -14,13 +14,13 @@ void rev_string(char *s)
 	{
 	}
 
-	char *m[10];
+	char m[10];
 
 	for (a = i; a > 0; a--)
 	{
 		m[c] = s[a];
 		c++;
 	}
-	s = m[c];
+	*s = m[c];
 	putchar('\n');
 }
