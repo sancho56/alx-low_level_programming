@@ -13,10 +13,8 @@ void rev_string(char *s)
 	{
 	}
 
-	for (a = i - 1; a >= 0; a--)
+	for (a = i; a > 0; a--)
 	{
-		putchar(a + '0');
-		putchar('\n');
-		putchar(s[a]);
+		putchar(*s[a]);
 	}
 }
