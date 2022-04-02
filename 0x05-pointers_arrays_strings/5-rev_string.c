@@ -13,7 +13,7 @@ void rev_string(char *s)
 	{
 	}
 
-	for (a = i - 1; a >= 0; a--)
+	for (a = i - 1; s[a] != '\0'; a--)
 	{
 		putchar(s[a]);
 	}
