@@ -13,14 +13,15 @@ int _atoi(char *s)
 	{
 		if (i > '0' && i < '9')
 		{
-			putchar(i + '0');
+			i = i + '0';
+			putchar('n');
 			exist = 1;
 		}
 	}
 	putchar('\n');
 
-	if (exist != 1)
+	if (exist == 0)
 		return 0;
 	else
-		return 1;
+		return i;
 }
