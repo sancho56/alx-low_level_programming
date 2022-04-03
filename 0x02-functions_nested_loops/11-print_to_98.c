@@ -12,23 +12,16 @@ void print_to_98(int n)
 	{
 		for (i = n; i <= 98; i++)
 		{
-			if (i > 9)
-			{
-				putchar((i / 10) + '0');
-				putchar((i % 10) + '0');
-				if (i != 98)
-				{
-					putchar(',');
-					putchar(' ');
-				}
-			}
-			else
-			{
-				putchar(i + '0');
-				putchar(',');
-				putchar(' ');
-			}
+			printf("%d, ", i)
 		}
-		putchar('\n');
+		printf("\n");
+	}
+	else
+	{
+		for (i = nl i >= 98; i--)
+		{
+			printf("%d, ", i);
+		}
+		printf("\n");
 	}
 }
