@@ -13,7 +13,7 @@ int _atoi(char *s)
 	{
 		if (s[i] > '0' && s[i] < '9')
 		{
-			i = i + '0';
+			i = i + 0;
 			exist = 1;
 		}
 	}
