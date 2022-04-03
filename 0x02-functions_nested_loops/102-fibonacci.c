@@ -17,7 +17,7 @@ int main(void)
 		firstNum = secondNum;
 		secondNum = sum;
 		sum = firstNum + secondNum;
-		if (i != n - 1)
+		if (i != 49)
 			printf(", ");
 	}
 	putchar('\n');
