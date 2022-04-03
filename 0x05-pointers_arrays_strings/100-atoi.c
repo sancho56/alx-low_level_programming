@@ -6,14 +6,14 @@
  */
 int _atoi(char *s)
 {
-	int i;
+	int i, sum = 0;
 	int exist = 0;
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
 		if (s[i] > '0' && s[i] < '9')
 		{
-			i = s[i];
+			sum = sum * 10 + (s[i] - 48);
 			exist = 1;
 		}
 	}
@@ -21,5 +21,5 @@ int _atoi(char *s)
 	if (exist == 0)
 		return (0);
 	else
-		return (i);
+		return (sum);
 }
