@@ -17,11 +17,12 @@ void print_times_table(int n)
 	{
 		for (j = 0; j <= n; j++)
 		{
-			printf("  %d", i * j);
+			if (j == 0)
+				printf("%d", i * j);
+			else
+				printf("  %d", i * j);
 			if (j != n)
 				printf(", ");
-			else
-				printf(" ");
 		}
 		printf("\n");
 	}
