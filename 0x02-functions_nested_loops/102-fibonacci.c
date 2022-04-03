@@ -16,7 +16,7 @@ int main(void)
 		printf("%d", sum);
 		firstNum = secondNum;
 		secondNum = sum;
-		sum = firstNum + secondnum;
+		sum = firstNum + secondNum;
 		if (i != n - 1)
 			printf(", ");
 	}
