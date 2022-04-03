@@ -7,7 +7,7 @@ int main(void)
 {
 	int firstNum = 1;
 	int secondNum = 2;
-	long sum = firstNum + secondNum;
+	long long sum = firstNum + secondNum;
 	int i;
 
 	printf("%d, %d, ", firstNum, secondNum);
