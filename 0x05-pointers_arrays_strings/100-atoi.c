@@ -1,6 +1,6 @@
 #include "main.h"
 /*
- * atoi - converts string to integer
+ * _atoi - converts string to integer
  * @s: character pointer
  * Return: integer
  */
@@ -14,7 +14,7 @@ int _atoi(char *s)
 	{
 		if (s[i] == 43 || s[i] == 45)
 		{
-			c *= s[i];
+			c = s[i];
 		}
 
 		if (s[i] >= '0' || s[i] <= '9')
@@ -23,7 +23,7 @@ int _atoi(char *s)
 			exist = 1;
 		}
 	}
-	sum *= c;
+	sum *= 'c';
 
 	if (exist == 0)
 		return (0);
