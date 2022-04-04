@@ -5,12 +5,12 @@
  */
 int main(void)
 {
-	long first = 1;
-	long second = 2;
+	unsigned long first = 1;
+	unsigned long second = 2;
 	unsigned long sum = first + second;
 	int i;
 
-	printf("%ld, %ld, ", first, second);
+	printf("%lu, %lu, ", first, second);
 
 	for (i = 0; i < 98; i++)
 	{
