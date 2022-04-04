@@ -10,7 +10,7 @@ int main(void)
 	long sum = first + second;
 	int i;
 
-	printf("%d, %d, ", first, second);
+	printf("%ld, %ld, ", first, second);
 
 	for (i = 0; i < 98; i++)
 	{
@@ -18,7 +18,7 @@ int main(void)
 		second = sum;
 		sum = first + second;
 
-		printf("%d", sum);
+		printf("%ld", sum);
 
 		if (i != 97)
 			printf(", ");
