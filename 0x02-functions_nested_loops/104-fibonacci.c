@@ -5,25 +5,44 @@
  */
 int main(void)
 {
-	double first = 1;
-	double second = 2;
-	double sum = first + second;
+	unsigned long first = 1;
+	unsigned long second = 2;
+	unsigned long sum = first + second;
 	int i;
+	unsigned long m, n, p, carry;
 
-	printf("%lf, %lf, ", first, second);
+	printf("%lu, %lu, ", first, second);
 
-	for (i = 0; i < 98; i++)
+	for (i = 3; i <= 91; i++)
 	{
 		first = second;
 		second = sum;
 		sum = first + second;
 
-		printf("%lf", sum);
-
-		if (i != 97)
-			printf(", ");
+		printf("%lu, ", sum);
 	}
+	m = first % 1000;
+	first =/ 1000;
+	n = second % 1000;
+	second =/ 1000;
 
+	while (i <= 98)
+	{
+		carry = (m + n) / 1000;
+		p = (m + n) - carry * 1000;
+		sum = (i + j) + carry;
+		m = n;
+		n = p;
+		first = second;
+		second = sum;
+		if (p >= 100)
+			printf("%lu%lu", k, p);
+		else
+			printf("%lu0%lu", k, p);
+		if (i != 98)
+			printf(", ");
+		i++;
+	}
 	printf("\n");
 	return (0);
 }
