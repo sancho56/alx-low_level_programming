@@ -5,7 +5,12 @@
  */
 int main(void)
 {
-	int i, first = 1, second = 2, sum = 0;
+	int i;
+       	int first = 1;
+	int second = 2;
+	int sum = 0;
+	int evenSum = 0;
+
 	sum = first + second;
 
 	for (i = 3; sum < 4000000; i++)
@@ -15,9 +20,9 @@ int main(void)
 		sum = first + second;
 
 		if (sum % 2 == 0)
-		{
-			printf("%d", sum);
-		}
+			evenSum =+ sum;
 	}
+
+	printf("%d", evenSum);
 	return (0);
 }
