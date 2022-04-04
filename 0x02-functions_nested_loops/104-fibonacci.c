@@ -7,7 +7,7 @@ int main(void)
 {
 	long first = 1;
 	long second = 2;
-	long sum = first + second;
+	unsigned long sum = first + second;
 	int i;
 
 	printf("%ld, %ld, ", first, second);
@@ -18,7 +18,7 @@ int main(void)
 		second = sum;
 		sum = first + second;
 
-		printf("%ld", sum);
+		printf("%lu", sum);
 
 		if (i != 97)
 			printf(", ");
