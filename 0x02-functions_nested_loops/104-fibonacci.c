@@ -13,13 +13,13 @@ int main(void)
 
 	printf("%lu, %lu, ", first, second);
 
-	for (i = 0; i <= 91; i++)
+	for (i = 3; i <= 91; i++)
 	{
+		printf("%lu, ", sum);
+
 		first = second;
 		second = sum;
 		sum = first + second;
-
-		printf("%lu, ", sum);
 	}
 	m = first % 1000;
 	first /= 1000;
