@@ -6,7 +6,7 @@
 int main(void)
 {
 	int i;
-       	int first = 1;
+	int first = 1;
 	int second = 2;
 	int sum = 0;
 	int evenSum = 0;
@@ -15,12 +15,11 @@ int main(void)
 
 	for (i = 3; sum < 4000000; i++)
 	{
+		if (sum % 2 == 0)
+			evenSum += sum;
 		first = second;
 		second = sum;
 		sum = first + second;
-
-		if (sum % 2 == 0)
-			evenSum =+ sum;
 	}
 
 	printf("%d", evenSum);
