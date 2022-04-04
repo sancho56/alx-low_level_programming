@@ -22,23 +22,23 @@ int main(void)
 		printf("%lu, ", sum);
 	}
 	m = first % 1000;
-	first =/ 1000;
+	first /= 1000;
 	n = second % 1000;
-	second =/ 1000;
+	second /= 1000;
 
 	while (i <= 98)
 	{
 		carry = (m + n) / 1000;
 		p = (m + n) - carry * 1000;
-		sum = (i + j) + carry;
+		sum = (first + second) + carry;
 		m = n;
 		n = p;
 		first = second;
 		second = sum;
 		if (p >= 100)
-			printf("%lu%lu", k, p);
+			printf("%lu%lu", sum, p);
 		else
-			printf("%lu0%lu", k, p);
+			printf("%lu0%lu", sum, p);
 		if (i != 98)
 			printf(", ");
 		i++;
