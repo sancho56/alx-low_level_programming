@@ -22,6 +22,6 @@ int main(void)
 		sum = first + second;
 	}
 
-	printf("%d", evenSum);
+	printf("%d\n", evenSum);
 	return (0);
 }
