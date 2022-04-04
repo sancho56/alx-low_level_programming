@@ -5,13 +5,13 @@
  * @a: integer a
  * @b: integer b
  * 
- * Return: the multiplication of two parameters
+ * Return: integer
  */
 int mul(int a, int b)
 {
 	int mult;
 
 	mult = a * b;
+
 	return (mult);
 }
-
