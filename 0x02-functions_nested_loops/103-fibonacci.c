@@ -9,7 +9,7 @@ int main(void)
 	int first = 1;
 	int second = 2;
 	int sum = 0;
-	int evenSum = 0;
+	int evenSum = second;
 
 	sum = first + second;
 
