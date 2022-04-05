@@ -7,7 +7,7 @@
  */
 char *create_array(unsigned int size, char c)
 {
-	char *p = (char*) malloc(size);
+	char *p = (char *) malloc(size);
 	unsigned int i = 0;
 
 	while (i < size)
@@ -15,8 +15,8 @@ char *create_array(unsigned int size, char c)
 		p[i] = c;
 		i++;
 	}
-	if (sizeof(*p) == 0)
+	if (size == 0)
 		return (NULL);
 	else
-		return p;
+		return (p);
 }
