@@ -19,7 +19,7 @@ int **alloc_grid(int width, int height)
 	{
 		for (j = 0; j < *hei; j++)
 		{
-			*a[i][j] = 0;
+			a[i][j] = 0;
 		}
 	}
 
