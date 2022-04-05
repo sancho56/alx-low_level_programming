@@ -6,9 +6,9 @@
  */
 char *_strdup(char *str)
 {
-	unsigned long int m;
+	int m;
 	char *p;
-	unsigned long int i = 0;
+	int i = 0;
 
 	if (str == NULL)
 		return (NULL);
