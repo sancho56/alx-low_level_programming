@@ -7,7 +7,7 @@
  */
 int check_prime(int a, int n)
 {
-	if ((n / a) == 0)
+	if ((n % a) == 0)
 		return (1);
 
 	if (a > 8)
@@ -24,7 +24,7 @@ int check_prime(int a, int n)
 int is_prime_number(int n)
 {
 	if (n == 1)
-		return (1);
+		return (0);
 	else if (n < 0)
 		return (0);
 
