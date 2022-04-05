@@ -15,13 +15,11 @@ int **alloc_grid(int width, int height)
 	if (width <= 0 || height <= 0)
 		return (NULL);
 
-	a = a[*wid][*hei];
-
 	for (i = 0; i < *wid; i++)
 	{
 		for (j = 0; j < *hei; j++)
 		{
-			a[i][j] = 0;
+			a[][] = 0;
 		}
 	}
 
