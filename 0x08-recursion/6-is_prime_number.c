@@ -8,10 +8,10 @@
 int check_prime(int a, int n)
 {
 	if ((n % a) == 0)
-		return (1);
+		return (0);
 
 	if (a > 10)
-		return (0);
+		return (1);
 
 	a++;
 	return (check_prime(a, n));
