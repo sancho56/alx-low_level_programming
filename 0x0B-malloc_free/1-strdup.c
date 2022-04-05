@@ -6,8 +6,12 @@
  */
 char *_strdup(char *str)
 {
-	char *p = (char *) malloc(sizeof(str));
-	long unsigned int i = 0;
+	int m;
+
+	for (m = 0; str[m] != '\0'; m++);
+
+	char *p = (char *) malloc(m * sizeof(str));
+	unsigned long int i = 0;
 
 	if (p != NULL)
 	{
