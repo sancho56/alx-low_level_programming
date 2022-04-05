@@ -18,5 +18,5 @@ char *create_array(unsigned int size, char c)
 	if (sizeof(*p) == 0)
 		return (NULL);
 	else
-		return *p;
+		return p;
 }
