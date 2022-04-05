@@ -6,7 +6,7 @@
  */
 char *_strdup(char *str)
 {
-	int m;
+	unsigned long int m;
 	char *p;
 	unsigned long int i = 0;
 
