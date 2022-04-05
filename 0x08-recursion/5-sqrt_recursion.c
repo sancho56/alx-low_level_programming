@@ -9,7 +9,7 @@ int check_sqrt(int a, int n)
 {
 	if ((a * a) > n)
 		return (-1);
-	else ((a * a) == n)
+	else if ((a * a) == n)
 		return (a);
 	a++;
 	return (check_sqrt(a, n));
