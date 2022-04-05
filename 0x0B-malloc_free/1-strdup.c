@@ -6,9 +6,6 @@
  */
 char *_strdup(char *str)
 {
-	if (str == NULL)
-		return (NULL);
-
 	char *p = (char *) malloc(sizeof(str));
 	long unsigned int i = 0;
 
@@ -20,5 +17,9 @@ char *_strdup(char *str)
 			i++;
 		}
 	}
-	return (p);
+
+	if (str == NULL)
+		return (NULL);
+	else
+		return (p);
 }
