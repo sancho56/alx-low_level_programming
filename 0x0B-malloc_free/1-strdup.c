@@ -9,8 +9,8 @@ char *_strdup(char *str)
 	if (str == NULL)
 		return (NULL);
 
-	char *p = malloc(sizeof(str));
-	int i = 0;
+	char *p = (char *) malloc(sizeof(str));
+	long unsigned int i = 0;
 
 	if (p != NULL)
 	{
