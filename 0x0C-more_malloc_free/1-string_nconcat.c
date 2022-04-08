@@ -9,9 +9,13 @@
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	unsigned int m = strlen(*s1) + 1;
-	unsigned int o = strlen(*s2) + 1;
-	int *p = realloc(s1, o * n);
+	unsigned int m = strlen(s1) + 1;
+	unsigned int o = strlen(s2) + 1;
+	char *p = (char *) realloc(s1, o * n);
+	int i;
+
+	for (i = 0; i != '\0'; i++)
+		p[i] = p(i + 1);
 
 	if (p == NULL)
 		return NULL;
