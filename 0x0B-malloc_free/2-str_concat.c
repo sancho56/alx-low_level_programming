@@ -13,6 +13,11 @@ char *str_concat(char *s1, char *s2)
 	char *p = (char *) malloc(c);
 	int i;
 
+	if (s1 == NULL)
+		*s1 = "";
+	else if (s2 == NULL)
+		*s2 = "";
+
 	if (p == NULL)
 		return (NULL);
 
@@ -24,5 +29,5 @@ char *str_concat(char *s1, char *s2)
 		*(p + a) = s2[i];
 		a++;
 	}
-	return p;
+	return (p);
 }
