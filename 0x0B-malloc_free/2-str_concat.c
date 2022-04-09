@@ -7,16 +7,21 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-	int a = strlen(s1);
-	int b = strlen(s2) + 1;
-	int c = a + b;
-	char *p = (char *) malloc(c);
+	int a;
+	int b;
+	int c;
+	char *p;
 	int i;
 
 	if (s1 == NULL)
 		s1 = "";
 	else if (s2 == NULL)
 		s2 = "";
+
+	a = strlen(s1);
+	b = strlen(s2) + 1;
+	c = a + b;
+	p = (char *) malloc(c);
 
 	if (p == NULL)
 		return (NULL);
