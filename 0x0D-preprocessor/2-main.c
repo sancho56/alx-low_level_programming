@@ -3,7 +3,7 @@
  * main - prints the file name of complied
  * Return: zero
  */
-int main(int argc, char **argv)
+int main(void)
 {
 	printf("%s\n", __FILE__);
 	return (0);
