@@ -1,4 +1,3 @@
-#ifndef DOG
 /**
  * struct dog - structure type of dog
  * @name: char pointer
@@ -10,5 +9,3 @@ struct dog{
 	float age;
 	char *owner;
 }
-
-#endif
