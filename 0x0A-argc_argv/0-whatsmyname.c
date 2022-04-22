@@ -2,6 +2,8 @@
 
 /**
  * main - prints a name of file
+ * @argc: integer that counts the command arguments
+ * @argv: char pointer that store command arguments
  * Return: integer zero
  */
 int main(int argc, char *argv[])
