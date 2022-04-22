@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 /**
  * main - prints the number of arguments passed
@@ -8,7 +7,7 @@
  */
 int main(int argc, char *argv[])
 {
-	if (argc != 0)
+	if (argc != 0 && argv)
 		printf("%d\n", (argc - 1));
 	return (0);
 }
