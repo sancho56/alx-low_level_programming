@@ -5,5 +5,5 @@
  */
 int main(int argc, char *argv[])
 {
-	putchar(argv[0]);
+	printf("%s", argv[0]);
 }
