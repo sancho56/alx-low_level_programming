@@ -9,11 +9,11 @@
  */
 int main(int argc, char *argv[])
 {
-	int i, sum = 0, c;
+	int i, sum = 0;
 
 	for (i = 1; i < argc; i++)
 	{
-		if ((argv[i] <= 48 && argv[i] >= 57) || (argv[i] <= 65 && argv[i] >= 90))
+		if (atoi(argv[i] == 0))
 		{
 			printf("Error\n");
 			return (1);
