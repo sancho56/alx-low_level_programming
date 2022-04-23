@@ -23,7 +23,7 @@ int _atoi(char *s)
 			exist = 1;
 		}
 	}
-	sum *= 'c';
+	sum *= c;
 
 	if (exist == 0)
 		return (0);
