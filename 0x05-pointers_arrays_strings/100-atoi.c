@@ -17,7 +17,7 @@ int _atoi(char *s)
 			c = s[i];
 		}
 
-		if (s[ii] >= '0' && s[i] <= '9')
+		if (s[i] >= '0' && s[i] <= '9')
 		{
 			sum = sum * 10 + (s[i] - 48);
 			exist = 1;
