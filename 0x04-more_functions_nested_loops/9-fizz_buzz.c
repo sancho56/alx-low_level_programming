@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - prints number with fizz and buzz
  * Return: 0
