@@ -13,12 +13,12 @@ char *_strcat(char *dest, char *src)
 	file = dest;
 
 	for (i = 0; dest[i] != '\0'; i++)
-		file[i] = dest[i];
+			file[i] = dest[i];
 	
 	for (j = 0; src[j] != '\0'; j++)
 	{
-		file[i] = src[j];
-		i++;
+			file[i] = src[j];
+			i++;
 	}	
 	return (file);
 }
