@@ -19,6 +19,9 @@ char *_strcat(char *dest, char *src)
 		i++;
 	}
 
-	return (file);
+	if (dest != NULL)
+		return (file);
+	else
+		return (NULL);
 }
 
