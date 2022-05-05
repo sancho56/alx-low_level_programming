@@ -12,16 +12,11 @@ char *_strcat(char *dest, char *src)
 	char *file = dest;
 
 	for (i = 0; dest[i] != '\0'; i++);
-	
 	for (j = 0; src[j] != '\0'; j++)
 	{
 		file[i] = src[j];
 		i++;
 	}
-
-	if (dest != NULL)
-		return (file);
-	else
-		return (NULL);
+	return (file);
 }
 
