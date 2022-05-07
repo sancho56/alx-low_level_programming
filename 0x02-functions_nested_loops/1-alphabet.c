@@ -1,8 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_alphabet - print the alphabet, in lowercase, followed by a new line
- * Return: void
+ * print_alphabet - concatenates two strings
+ *
+ * Return: retutn char pointer
  */
 void print_alphabet(void)
 {
