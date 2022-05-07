@@ -3,6 +3,7 @@
  * _strcat - concatenates strings
  * @dest: the destination string
  * @src: the source string
+ * Description: the function to concatenate strings
  * Return: char pointer
  * 
  */

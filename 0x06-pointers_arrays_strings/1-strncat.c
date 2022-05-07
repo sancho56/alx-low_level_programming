@@ -4,6 +4,7 @@
  * @dest : char pointer
  * @src : char pointer
  * @n : integer number
+ * Description: the function to concatenate two strings
  * Return: retutn char pointer
  */
 char *_strncat(char *dest, char *src, int n)

@@ -3,6 +3,7 @@
  * _strcmp - compare two strings
  * @s1 : char pointer
  * @s2 : char pointer
+ * Description: the function to compare two strings
  * Return: integer
  */
 int _strcmp(char *s1, char *s2)
