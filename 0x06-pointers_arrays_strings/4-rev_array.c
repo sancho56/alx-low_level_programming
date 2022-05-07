@@ -12,7 +12,7 @@ void reverse_array(int *a, int n)
 
     for (i = n; i > 0; i--)
     {
-        putchar(i + '0');
+        putchar(a[i]);
     }
     putchar('\n');
 }
