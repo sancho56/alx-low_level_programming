@@ -6,9 +6,9 @@
  * Description: reverse array
  * Return: void
  */
-void reverse_array (int *a, int n)
+void reverse_array(int *a, int n)
 {
-    int i;
+int i;
 
     for (i = n - 1; i > 0; i--)
     {
