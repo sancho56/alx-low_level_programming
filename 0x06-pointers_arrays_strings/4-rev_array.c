@@ -1,0 +1,18 @@
+#include "main.h"
+/**
+ * reverse_array - reverse array of elements
+ * @a: integer pointer
+ * @n: number of elements
+ * Description: reverse array
+ * Return: void
+ */
+void reverse_array(int *a, int n)
+{
+    int i;
+
+    for (i = n; i > 0; i--)
+    {
+        putchar(i + '0');
+    }
+    putchar('\n');
+}
