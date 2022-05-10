@@ -1,44 +1,27 @@
 #include "main.h"
 /**
- * reverse_array - reverse array of elements
- * @a : integer pointer
- * @n : number of elements
- * Description : reverse array
- * Return : void
+ * reverse_array - writes the character c to stdout
+ * @a: The character to print
+ * @n: dfsdfsdfsd
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
 void reverse_array(int *a, int n)
 {
-    int i;
 
-    for (i = n - 1; i >= 0; i--)
-    {
-        if (a[i] < 10)
-        {
-                putchar(a[i] + '0');
-        }
-        else if (a[i] < 99 && a[i] >= 10)                                                   
-        {                                                         
-                putchar((a[i] / 10) + '0');                          
-                putchar((a[i] % 10) + '0');                          
-        }
-	    else if ( a[i] < 999 && a[i] >= 100)
-	    {
-                putchar((a[i] / 100) + '0');
-                putchar(((a[i] / 10) % 10) + '0');                          
-                putchar((a[i] % 10) + '0');
-        }
-        else if (a[i] < 9999 && a[i] >= 1000)
-	    {
-	            putchar((a[i] / 1000) + '0');
-	            putchar(((a[i] / 100) % 10)  + '0');
-                putchar(((a[i] / 10) % 10) + '0');                          
-                putchar((a[i] % 10) + '0');
-	    }
-        if (i != 0)
-        {
-            putchar(',');
-            putchar(' ');
-        }
-    }
-    putchar('\n');
+	int b = 0, c = 0;
+	int d[20];
+
+	n--;
+	while (b <= n)
+	{
+		d[n - b] = a[b];
+		b++;
+
+	}
+	while (c <= n)
+	{
+		a[c] = d[c];
+		c++;
+	}
 }
