@@ -35,5 +35,5 @@ void print_number(int n)
 	        putchar(((n / 100) % 10)  + '0');
                 putchar(((n / 10) % 10) + '0');                          
                 putchar((n % 10) + '0');
-	  }
+	}
 }
