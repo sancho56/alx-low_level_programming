@@ -34,8 +34,11 @@ void reverse_array(int *a, int n)
                 putchar(((a[i] / 10) % 10) + '0');                          
                 putchar((a[i] % 10) + '0');
 	    }
-        
-        putchar(' ');
+        if (i != 0)
+        {
+            putchar(',');
+            putchar(' ');
+        }
     }
     putchar('\n');
 }
