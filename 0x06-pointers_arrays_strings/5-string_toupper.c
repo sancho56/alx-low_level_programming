@@ -7,13 +7,15 @@
 char *string_toupper(char *n)
 {
     int i;
+    char *m = n;
 
     for (i = 0; n[i] != '\0'; i++)
     {
         if (n[i] >= 97 && n[i] <= 122)
         {
-            putchar((n[i] - 32) + '0');
+            m[i] = n[i] - 32;
         }
     }
-    putchar('\n');
+    return (m);
 }
+
