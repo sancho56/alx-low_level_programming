@@ -2,7 +2,7 @@
 /**
  * string_toupper - convert lowercase to uppercase
  * @n: string to be converted
- * Description: This converts a string to upper case
+ * Description: This converts a string to uppercase
  * Return: character pointer
  */
 char *string_toupper(char *n)
