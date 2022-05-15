@@ -19,7 +19,7 @@ char *cap_string(char *ch)
 
         if (c == 1)
         {
-            if (ch[i] > 90)
+            if (ch[i] >= 90)
                 ch[i] = ch[i] - 32;
             c = 0;
         }
