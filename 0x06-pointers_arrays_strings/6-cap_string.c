@@ -11,7 +11,7 @@ char *cap_string(char *ch)
 
     for (i = 0; ch[i] != '\0'; i++)
     {
-        if (ch[i] == " ")
+        if (ch[i] == 32)
         {
             c = 1;
             continue;
