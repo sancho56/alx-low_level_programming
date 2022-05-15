@@ -6,7 +6,7 @@
  * Return: character pointer
  */
 char *string_toupper(char *n)
-{
+{ 
     int i;
     char *m = n;
 
