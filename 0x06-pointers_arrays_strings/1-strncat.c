@@ -4,14 +4,14 @@
  * @dest: char pointer
  * @src: char pointer
  * @n: integer number
- * Description: the function to concatenate two strings
+ * 
  * Return: char pointer
+ * Description: the function to concatenate two strings
  */
 
 char *_strncat(char *dest, char *src, int n)
 {
-	int i;
-	int j;
+	int i, j;
 
 	for (i = 0; dest[i] != '\0'; i++);
 	
