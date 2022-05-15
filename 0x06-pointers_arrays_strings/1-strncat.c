@@ -1,6 +1,9 @@
 #include "main.h"
-
-
+/**
+ * _strncat - concatenates two strings
+ * Return: char pointer
+ * Description: the function to concatenate two strings
+ */
 char *_strncat(char *dest, char *src, int n)
 {
 	int i;
