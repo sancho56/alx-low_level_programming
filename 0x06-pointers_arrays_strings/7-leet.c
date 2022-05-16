@@ -4,7 +4,7 @@
  * @ch: character to be encoded
  * Return: encoded pointer
  */
-char *leet_encode(char *ch)
+char *leet(char *ch)
 {
     return (ch);
 }
