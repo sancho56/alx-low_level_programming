@@ -1,8 +1,10 @@
 #include "main.h"
 /**
- * leet - multiples two integers
- * @ch: integer a
- * Return: integer
+ * leet - encodes a string value
+ * @ch: input character pointer
+ * 
+ * Description: This program encodes a string value.
+ * Return: encoded pointer
  */
 
 char *leet(char *ch)
