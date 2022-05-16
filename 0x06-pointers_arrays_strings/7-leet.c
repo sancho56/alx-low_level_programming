@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * leet - encodes a string
- * @ch: character to be encoded
- * Return: encoded pointer
+ * leet - multiples two integers
+ * @n: integer a
+ * Return: integer
  */
 
 char *leet(char *ch)
