@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * leet - multiples two integers
- * @n: integer a
+ * @ch: integer a
  * Return: integer
  */
 
