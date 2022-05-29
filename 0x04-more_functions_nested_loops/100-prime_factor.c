@@ -5,10 +5,10 @@
  */
 int main(void)
 {
-	long n;
-	long div = 2;
-	long ans = 0; 
-	long maxFact;
+	long long int n;
+	int div = 2;
+	int ans = 0; 
+	int maxFact;
 	n = 612852475143;
 	
 	while (n != 0)
