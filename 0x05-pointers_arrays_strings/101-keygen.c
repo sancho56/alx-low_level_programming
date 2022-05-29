@@ -7,7 +7,7 @@
 int main()
 {
     srand(time(NULL));
-    rand() % 1000000; 
+    rand(); 
 
     return (0);
 }
