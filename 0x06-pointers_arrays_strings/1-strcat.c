@@ -1,10 +1,9 @@
 #include "main.h"
 /**
- * _strcat - writes the character c to stdout
+ * _strcat - string concatenates
  * @dest: The character to print
  * @src: number of array elements
- * Return: On success 1.
- * On error, -1 is returned, and error is set appropriately.
+ * Return: On success 1
  */
 char *_strcat(char *dest, char *src)
 {
