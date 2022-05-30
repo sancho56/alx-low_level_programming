@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * _strcat - appends src string
- * @dest: char pointer
- * @src: char pointer
- * Description: This will append string
- * Return: char pointer
+ * _strcat - writes the character c to stdout
+ * @dest: The character to print
+ * @src: number of array elements
+ * Return: On success 1.
+ * On error, -1 is returned, and error is set appropriately.
  */
 char *_strcat(char *dest, char *src)
 {
